@@ -225,9 +225,9 @@ body {
     color: var(--cor-secundaria);
     padding: 10px;
     border-radius: 10px;
-    border: 2px solid var(--cor-secundaria);
     font-size: 30px;
     font-weight: 700;
+    margin-top: 3%;
 }
 
 .link-numero-secreto:hover {
@@ -238,63 +238,9 @@ body {
 }
 
 .imagem-numero-secreto {
-    height: 75vh;
-    border-radius: 120px;
-    margin-top: 3%;
-    border: 5px solid var(--cor-secundaria);
+    height: 30vh;
 }
 
-.link-quiz {  
-    background-color: var(--cor-promaria);
-    text-decoration: none;
-    color: var(--cor-secundaria);
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid var(--cor-secundaria);
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 3%;
-}
-
-.link-quiz:hover {
-    color: var(--cor-terciaria);
-    transform: scale(1);
-    transition: .3s;
-    border: 2px solid var(--cor-terciaria);
-}
-
-.imagem-quiz {
-    height: 75vh;
-    border-radius: 120px;
-    margin-top: 3%;
-    border: 5px solid var(--cor-secundaria);
-}
-
-.link-portfolio {  
-    background-color: var(--cor-promaria);
-    text-decoration: none;
-    color: var(--cor-secundaria);
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid var(--cor-secundaria);
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 3%;
-}
-
-.link-portfolio:hover {
-    color: var(--cor-terciaria);
-    transform: scale(1);
-    transition: .3s;
-    border: 2px solid var(--cor-terciaria);
-}
-
-.imagem-portfolio {
-    height: 75vh;
-    border-radius: 120px;
-    margin-top: 3%;
-    border: 5px solid var(--cor-secundaria);
-}
 
 .rodape-projetos{  
     background-color: var(--cor-promaria);
@@ -307,6 +253,45 @@ body {
 }
 
 .rodape-projetos:hover {
+    color: var(--cor-terciaria);
+    transform: scale(1);
+    transition: .3s;
+    border: 2px solid var(--cor-terciaria);
+}
+
+.link-formacao-alura {  
+    background-color: var(--cor-promaria);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 3%;
+}
+
+.link-formacao-alura:hover {
+    color: var(--cor-terciaria);
+    transform: scale(1);
+    transition: .3s;
+    border: 2px solid var(--cor-terciaria);
+}
+
+.imagem-formacao-alura {
+    height: 30vh;
+}
+
+.rodape-certificacoes {  
+    background-color: var(--cor-promaria);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--cor-secundaria);
+    font-size: 20px;
+}
+
+.rodape-certificacoes:hover {
     color: var(--cor-terciaria);
     transform: scale(1);
     transition: .3s;
