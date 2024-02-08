@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+:root {
+    /* É uma variavel para mudar o estilo de forma mais prática */
+    --cor-promaria: #000000;
+    --cor-secundaria: #EEEEEE;
+    --cor-terciaria:#068FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.apresentacao {
+    margin: 10vh 10%;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.apresentacao-texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.botoes ul {
+    margin: 2%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around
+}
+
+.botoes ul li a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    border: 2px solid var(--cor-secundaria);
+
+}
+
+.botoes ul li a:hover {
+    display: inline-block;
+    color: var(--cor-terciaria);
+    transform: scale(1.05);
+    transition: .2s;
+    border: 2px solid var(--cor-terciaria);
+ }
+
+.bruno-contato {
+    display:flex;
+    justify-content: space-between;
+    gap: 450px;
+   
+    
+}
+
+.bruno-contato :hover {
+    display: inline-block;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.bruno-contato a img {
+       width: 80px;
+       
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-promaria);
+    color: var(--cor-terciaria);
+    font-family: 'krona one', sans-serif;
+
+}
+ .nome-destaque {
+    color: var(--cor-secundaria);
+ }
+
+ .marca-texto {
+    background-color: var(--cor-secundaria);
+   
+ }
+ 
+ .foto {
+    width: 700px;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+  
+ }
+
+ .rodape-index {
+    padding: 10px;
+    background-color:var(--cor-terciaria);
+    color: var(--cor-promaria);
+    text-align: center;
+
+ }
+
+.titulo {
+    color: var(--cor-terciaria);
+    text-align: center;
+    font-family: 'krona one', sans-serif;
+    font-size: 20px;
+}
+
+.cabecalho-sobre-mim {
+    margin: 2%;
+    display:flex;
+    align-items:center;
+    justify-content: center;  
+    color: var(--cor-secundaria);
+    font-family: "krona one",sans-serif;
+    font-size:14px;
+}
+
+.pricipal-sobre-mim {
+    margin: 5%;
+    height: 75vh; 
+}
+
+.rodape-sobre-mim {  
+    background-color: var(--cor-promaria);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    padding: 10%;
+    border-radius: 10px;
+    border: 2px solid var(--cor-secundaria);
+}
+
+.rodape-sobre-mim:hover {
+    color: var(--cor-terciaria);
+    transform: scale(1);
+    transition: .3s;
+    border: 2px solid var(--cor-terciaria);
+}
+
+/* In[icio do estilo certificações */
+
+.certificacoes {
+    margin: 2%;
+    gap: 30px;
+    display:flex;
+    align-items:center;
+    flex-direction: column; 
+    color: var(--cor-secundaria);
+    font-family: "krona one",sans-serif;
+    font-size:14px;
+}
+
+.imagem-certificacoes {
+    height: 75vh;
+    border-radius: 120px;
+}
+
+.rodape-certificacoes {  
+    background-color: var(--cor-promaria);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    padding: 10%;
+    border-radius: 10px;
+    border: 2px solid var(--cor-secundaria);
+}
+
+.rodape-certificacoes:hover {
+    color: var(--cor-terciaria);
+    transform: scale(1);
+    transition: .3s;
+    border: 2px solid var(--cor-terciaria);
+}
+
+/* Inicio do estilo projetos */
+
+.projetos {
+    margin: 2%;
+    gap: 30px;
+    display:flex;
+    align-items:center;
+    flex-direction: column; 
+    color: var(--cor-secundaria);
+    font-family: "krona one",sans-serif;
+    font-size:14px;
+}
+
+.imagem-projetos {
+    height: 75vh;
+    border-radius: 120px;
+}
+
+.rodape-projetos {  
+    background-color: var(--cor-promaria);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    padding: 10%;
+    border-radius: 10px;
+    border: 2px solid var(--cor-secundaria);
+}
+
+.rodape-projetos:hover {
+    color: var(--cor-terciaria);
+    transform: scale(1);
+    transition: .3s;
+    border: 2px solid var(--cor-terciaria);
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+     }
+     100% {
+        top: 30px;
+}
